@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 3400px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+/* MENU */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 120px;
+    margin-left: 300px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border: 2px solid rgb(104, 95, 189);
+    list-style-type: none;
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+
+li img{
+    width: 150px;
+    height: 60px;
+   
+}
+
+.divisao{
+    width: 100%;
+    height: 600px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    position: absolute;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.caixa{
+    position: absolute;
+    width: 600px;
+    height: 30px;
+    color: #a7a7a7;
+    margin-top:-80px;
+    margin-left: 770px;
+    border-radius: 5px;
+    border: 2px solid rgb(104, 95, 189);
+    
+
+}
+
+.divisao1{
+    width: 1500px;
+    height: 510px;
+    background-image: url(../IMG/banner.webp);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    justify-content: center;
+    
+}
+
+.maca{
+    width: 300px;
+    height: 400px;
+    border: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+    
+}
+
+.maca img{
+    margin: 20px;
+}
+
+.maca p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a7a7a7;
+    margin-top: 20px;
+}
+
+.banana{
+    width: 300px;
+    height: 400px;
+    border: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 650px;
+
+}
+
+.banana img{
+    margin: 20px;
+}
+
+.banana p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a7a7a7;
+    margin-top: 20px;
+}
+
+.divisao4{
+    width: 100%;
+    height: 200px;
+    margin-top: -400px;
+    background-color:rgb(243, 172, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.novidades{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(255, 255, 255);
+    align-items: center;
+}
+
+.novidades img{
+    max-width: 250px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-right: 30px;
+}
+
+.divisao5{
+    display: flex;
+    flex-direction: row;
+}
+
+.abacaxi{
+    width: 300px;
+    height: 400px;
+    border: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    
+}
+
+.abacaxi img{
+    margin: 20px;
+}
+
+.abacaxi p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a7a7a7;
+    margin-top: 20px;
+}
+
+.pera{
+    width: 300px;
+    height: 400px;
+    border: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin-top: -1000px;
+    
+}
+
+.pera img{
+    margin: 20px;
+}
+
+.pera p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a7a7a7;
+    margin-top: 20px;
+}
+
+
+.laranja{
+    width: 300px;
+    height: 400px;
+    border: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 220px;
+    
+}
+
+.laranja img{
+    margin: 20px;
+}
+
+.laranja p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a7a7a7;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgb(243, 172, 255);
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin:40px;
+}
+.col{
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.col img {
+    height: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+.col a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+    margin-bottom: -200px;
+}
